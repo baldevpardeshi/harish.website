@@ -24,8 +24,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
   font-size: 14px;
   letter-spacing: 1em;
   position:absolute;
-  left:-35px;
-  top:100px;
+  left:-71px;
+  top:150px;
   font-family: Karla,Arial,sans-serif;
   text-transform: uppercase;
   color: rgba(0,0,0,.8);
@@ -84,7 +84,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
   border-radius: 50%;
   color:#fff;
   position: absolute;
-  left: -20px;
+  left: -58px;
 }
 .panel-default>.panel-heading{
   background-color: transparent;
@@ -94,7 +94,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 .panel-heading a[aria-expanded="false"]{
   writing-mode: inherit;
   position: relative;
-  left: -20px;
+  left: -58px;
   padding-left: 0;
 }
 .panel-heading a[aria-expanded="false"] .icon-wrap{
