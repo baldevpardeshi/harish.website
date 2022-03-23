@@ -284,7 +284,7 @@
             </a>
             </h4>
         </div>
-        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div id="collapseTwo" class="panel-collapse two collapse" role="tabpanel" aria-labelledby="headingTwo">
             <div id=hb-about>
                 <div class=container>
                     <div class="row text-center">
@@ -578,10 +578,10 @@
     <script src=assets/js/scripts.js></script>
     <script>
         $( function(){
-            $('.panel-collapse').on('shown.bs.collapse', function (e) {
+            $('.panel-collapse.two').on('shown.bs.collapse', function (e) {
                 var $panel = $(this).closest('.panel');
                 $('html,body').animate({
-                    scrollTop: $panel.offset().top
+                    scrollTop: $panel.offset().top -110
                 }, 500); 
             }); 
         });
